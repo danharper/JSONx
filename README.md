@@ -4,6 +4,9 @@ A library implementing IBM's standard format for [representing JSON as XML](http
 
 **WHY?!** That was my initial reaction, too. However it's very useful when you're trying to integrate one system which speaks JSON with another which speaks XML, without having to make potentially large changes.
 
+> **Notice**
+> This library will hit v1.0 _soon_. It's heavily tested and the API is stable (two methods), the only thing which will change are the exceptions and any potential bugs or edge-cases I've missed.
+
 ## Installation
 
 ```
