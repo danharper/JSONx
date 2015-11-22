@@ -1,14 +1,8 @@
 # JSONx
 
-A library implementing IBM's standard format for [representing JSON as XML](http://www-01.ibm.com/support/knowledgecenter/SS9H2Y_6.0.0/com.ibm.dp.xm.doc/json_jsonx.html).
+A library implementing IBM's standard format for [representing JSON as XML](http://www-01.ibm.com/support/knowledgecenter/SS9H2Y_6.0.0/com.ibm.dp.xm.doc/json_jsonx.html). Provides support for both reading & writing of JSONx. [The spec draft for JSONx can be found here](http://tools.ietf.org/html/draft-rsalz-jsonx-00).
 
-Supports both reading & writing of JSONx.
-
-I've previously [joked about it](https://twitter.com/danharper7/status/514822464673951744) then a year later found myself needing it to integrate our initially JSON APIs with enterprise systems only using XML.
-
-The draft spec can be found at:
-
-http://tools.ietf.org/html/draft-rsalz-jsonx-00
+**WHY?!** That was my initial reaction, too. However it's very useful when you're trying to integrate one system which speaks JSON with another which speaks XML, without having to make potentially large changes.
 
 ## Installation
 
@@ -72,3 +66,6 @@ object(stdClass)#180 (1) {
 */
 ```
 
+## Integrations
+
+Want to add full XML support to your JSON-speaking Laravel API with just one middleware? Check out [LaravelJSONx](https://github.com/danharper/LaravelJSONx).
