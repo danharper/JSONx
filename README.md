@@ -73,4 +73,6 @@ object(stdClass)#180 (1) {
 
 ## Integrations
 
-Want to add full XML support to your JSON-speaking Laravel API with just one middleware? Check out [LaravelJSONx](https://github.com/danharper/LaravelJSONx).
+Want to add full XML support to your JSON-speaking Laravel API with just one middleware? Check out [`danharper/laravel-jsonx`](https://github.com/danharper/LaravelJSONx).
+
+Want automatic conversion of your PSR-7 compatible messages? Check out [`danharper/psr7-jsonx`](https://github.com/danharper/Psr7JSONx).
