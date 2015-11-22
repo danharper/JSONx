@@ -1,0 +1,30 @@
+{
+  "name": "danharper/jsonx",
+  "description": "JSONx is an IBM standard format to represent JSON as XML https://twitter.com/danharper7/status/514822464673951744",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dan Harper",
+      "email": "hello@dans.email"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "mockery/mockery": "^0.9.4"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "danharper\\JSONx\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "danharper\\JSONx\\Tests\\": "tests"
+    }
+  }
+}
