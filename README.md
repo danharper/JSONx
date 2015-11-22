@@ -1,5 +1,7 @@
 # JSONx
 
+[![](https://api.travis-ci.org/danharper/JSONx.svg)](https://travis-ci.org/danharper/JSONx) [![Latest Stable Version](https://poser.pugx.org/danharper/jsonx/v/stable)](https://packagist.org/packages/danharper/jsonx) [![License](https://poser.pugx.org/danharper/jsonx/license)](https://packagist.org/packages/danharper/jsonx)
+
 A library implementing IBM's standard format for [representing JSON as XML](http://www-01.ibm.com/support/knowledgecenter/SS9H2Y_6.0.0/com.ibm.dp.xm.doc/json_jsonx.html). Provides support for both reading & writing of JSONx. [The spec draft for JSONx can be found here](http://tools.ietf.org/html/draft-rsalz-jsonx-00).
 
 **WHY?!** That was my initial reaction, too. However it's very useful when you're trying to integrate one system which speaks JSON with another which speaks XML, without having to make potentially large changes.
