@@ -19,7 +19,7 @@ composer require danharper/jsonx
 ## Usage
 
 ```php
-$jsonx = new danharper\JSONx;
+$jsonx = new danharper\JSONx\JSONx;
 
 $jsonx->toJSONx([
   'foo' => [ 'bar', true, 2, 3.14, null, [], (object) [] ]
