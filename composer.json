@@ -1,6 +1,7 @@
 {
   "name": "danharper/jsonx",
-  "description": "JSONx is an IBM standard format to represent JSON as XML https://twitter.com/danharper7/status/514822464673951744",
+  "description": "JSONx is an IBM standard for representing JSON as XML",
+  "keywords": ["jsonx", "json", "xml", "ibm"],
   "license": "MIT",
   "authors": [
     {
