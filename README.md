@@ -56,8 +56,18 @@ $jsonx->fromJSONx('
 ');
 
 /*
-{
-  "foo": [ "bar", true, 2, 3.14, null, [], {} ]
+object(stdClass)#180 (1) {
+  ["foo"]=> array(7) {
+    [0]=> string(3) "bar"
+    [1]=> bool(true)
+    [2]=> int(2)
+    [3]=> float(3.14)
+    [4]=> NULL
+    [5]=> array(0) {
+    }
+    [6]=> object(stdClass)#173 (0) {
+    }
+  }
 }
 */
 ```
